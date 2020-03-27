@@ -7,7 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="data_struct" />
+        <module name="struct_data" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="struct_data" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

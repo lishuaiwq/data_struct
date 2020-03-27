@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="struct_data:war">
+    <output-path>$PROJECT_DIR$/struct_data/target</output-path>
+    <root id="archive" name="struct_data.war">
+      <element id="artifact" artifact-name="struct_data:war exploded" />
+    </root>
+  </artifact>
+</component>

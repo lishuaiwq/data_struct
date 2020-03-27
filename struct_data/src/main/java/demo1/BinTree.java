@@ -12,6 +12,7 @@ public class BinTree {
         node = createBinTree(null,arg,value,new Index());
     }
 
+    /**创建二叉树**/
     public TreeNode createBinTree(TreeNode treeNodes, char[] arg, char value, Index index){
         if(arg[index.get()] != value && index.get() < arg.length){
             treeNodes = new TreeNode(arg[index.get()]);
