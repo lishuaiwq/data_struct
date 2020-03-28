@@ -24,4 +24,12 @@ public class TreeNode {
     public void setRight(TreeNode right) {
         this.right = right;
     }
+
+    public char getValue() {
+        return value;
+    }
+
+    public void setValue(char value) {
+        this.value = value;
+    }
 }
