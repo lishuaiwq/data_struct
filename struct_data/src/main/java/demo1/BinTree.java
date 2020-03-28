@@ -68,10 +68,4 @@ public class BinTree {
         System.out.print(treeNode.getValue());
     }
 
-    /***
-     * 前序非递归遍历
-     */
-    public void noRePreOrder(){
-
-    }
 }
