@@ -15,5 +15,7 @@ public class demon1 {
         System.out.println();
         System.out.println("后序递归遍历:");
         binTree.postOrder(binTree.getNode());
+
+
     }
 }
